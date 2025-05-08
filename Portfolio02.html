@@ -1,0 +1,266 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Model Portfolio - Ava Monroe
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;family=Open+Sans&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Open Sans', sans-serif;
+    }
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+    }
+  </style>
+ </head>
+ <body class="bg-white min-h-screen flex flex-col">
+  <header class="w-full bg-amber-900 text-amber-50 shadow-lg">
+   <nav class="container mx-auto flex items-center justify-between py-5 px-6 md:px-12">
+    <a class="text-3xl font-playfair font-bold tracking-wide" href="#">
+     Ava Monroe
+    </a>
+    <ul class="hidden md:flex space-x-10 text-amber-200 font-semibold text-lg">
+     <li>
+      <a class="hover:text-amber-50 transition" href="#portfolio">
+       Portfolio
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-amber-50 transition" href="#about">
+       About
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-amber-50 transition" href="#book">
+       Book
+      </a>
+     </li>
+    </ul>
+    <button class="md:hidden text-amber-200 focus:outline-none" id="menu-btn">
+     <i class="fas fa-bars fa-2x">
+     </i>
+    </button>
+   </nav>
+   <div class="hidden md:hidden bg-amber-800 text-amber-100 px-6 pb-6" id="mobile-menu">
+    <ul class="space-y-4 text-lg font-semibold">
+     <li>
+      <a class="block hover:text-amber-50 transition" href="#portfolio">
+       Portfolio
+      </a>
+     </li>
+     <li>
+      <a class="block hover:text-amber-50 transition" href="#about">
+       About
+      </a>
+     </li>
+     <li>
+      <a class="block hover:text-amber-50 transition" href="#book">
+       Book
+      </a>
+     </li>
+    </ul>
+   </div>
+  </header>
+  <main class="flex-grow container mx-auto px-6 md:px-12 py-12">
+   <section class="mb-20">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+     <div class="relative rounded-lg overflow-hidden shadow-lg">
+      <img alt="Portrait shot of Ava Monroe, a professional model, standing outdoors with natural sunlight highlighting her face and warm brown hair flowing gently in the breeze" class="w-full h-full object-cover" height="800" src="https://storage.googleapis.com/a1aa/image/e4bd12fa-6007-4e3b-ca96-a99232d93af8.jpg" width="600"/>
+      <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-amber-900/90 to-transparent p-6">
+       <h1 class="text-4xl md:text-5xl font-playfair font-bold text-amber-50 drop-shadow-lg">
+        Ava Monroe
+       </h1>
+       <p class="mt-1 text-amber-200 text-lg md:text-xl drop-shadow-md">
+        Professional Model &amp; Creative Muse
+       </p>
+      </div>
+     </div>
+     <div class="space-y-6">
+      <h2 class="text-3xl font-playfair font-bold text-amber-900">
+       Welcome to My Portfolio
+      </h2>
+      <p class="text-amber-900 text-lg leading-relaxed">
+       I’m Ava Monroe, a professional model with over 8 years of experience in fashion, editorial, and commercial shoots. My passion is to bring stories to life through every frame, blending elegance with authenticity.
+      </p>
+      <p class="text-amber-900 text-lg leading-relaxed">
+       Explore my latest work below, learn more about my journey, and book a session to collaborate on your next project.
+      </p>
+      <a class="inline-block bg-amber-900 text-amber-50 px-8 py-3 rounded-md font-semibold text-lg shadow-lg hover:bg-amber-700 transition" href="#book">
+       Book an Appointment
+      </a>
+     </div>
+    </div>
+   </section>
+   <section class="mb-20" id="portfolio">
+    <h2 class="text-3xl font-playfair font-bold text-amber-900 mb-10 text-center">
+     Portfolio
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+     <div class="rounded-lg overflow-hidden shadow-lg group cursor-pointer">
+      <img alt="Editorial fashion shoot featuring Ava Monroe wearing a flowing rust-colored dress in a desert setting with warm earth tones and dramatic lighting" class="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-300" height="600" src="https://storage.googleapis.com/a1aa/image/c0bc374d-12b9-4e9a-7f8f-f51a74936b40.jpg" width="400"/>
+      <div class="p-4 bg-amber-50">
+       <h3 class="font-semibold text-amber-900 text-xl">
+        Desert Elegance
+       </h3>
+       <p class="text-amber-700 mt-1 text-sm">
+        Editorial fashion shoot in warm earth tones.
+       </p>
+      </div>
+     </div>
+     <div class="rounded-lg overflow-hidden shadow-lg group cursor-pointer">
+      <img alt="Studio portrait of Ava Monroe with soft golden lighting highlighting her facial features and warm makeup tones" class="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-300" height="600" src="https://storage.googleapis.com/a1aa/image/6241bca1-9ace-436f-fd3c-7a85c897ce6a.jpg" width="400"/>
+      <div class="p-4 bg-amber-50">
+       <h3 class="font-semibold text-amber-900 text-xl">
+        Golden Glow
+       </h3>
+       <p class="text-amber-700 mt-1 text-sm">
+        Studio portrait with soft golden lighting.
+       </p>
+      </div>
+     </div>
+     <div class="rounded-lg overflow-hidden shadow-lg group cursor-pointer">
+      <img alt="Urban fashion shoot of Ava Monroe wearing a chic brown leather jacket against a textured brick wall background" class="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-300" height="600" src="https://storage.googleapis.com/a1aa/image/2d180b9b-abbf-4c38-5e5e-7f52768926f9.jpg" width="400"/>
+      <div class="p-4 bg-amber-50">
+       <h3 class="font-semibold text-amber-900 text-xl">
+        City Chic
+       </h3>
+       <p class="text-amber-700 mt-1 text-sm">
+        Urban fashion shoot with textured background.
+       </p>
+      </div>
+     </div>
+     <div class="rounded-lg overflow-hidden shadow-lg group cursor-pointer">
+      <img alt="Outdoor casual shoot of Ava Monroe wearing a cozy beige sweater during golden hour with warm sunlight filtering through autumn leaves" class="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-300" height="600" src="https://storage.googleapis.com/a1aa/image/372267c8-68d7-475d-d771-9cdfa328edfc.jpg" width="400"/>
+      <div class="p-4 bg-amber-50">
+       <h3 class="font-semibold text-amber-900 text-xl">
+        Golden Hour
+       </h3>
+       <p class="text-amber-700 mt-1 text-sm">
+        Outdoor casual shoot in warm golden hour light.
+       </p>
+      </div>
+     </div>
+     <div class="rounded-lg overflow-hidden shadow-lg group cursor-pointer">
+      <img alt="High fashion black and white portrait of Ava Monroe with dramatic shadows and elegant pose" class="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-300" height="600" src="https://storage.googleapis.com/a1aa/image/51fc192a-4f05-4ba2-fbbc-66f07bd80253.jpg" width="400"/>
+      <div class="p-4 bg-amber-50">
+       <h3 class="font-semibold text-amber-900 text-xl">
+        Monochrome Muse
+       </h3>
+       <p class="text-amber-700 mt-1 text-sm">
+        High fashion black and white portrait.
+       </p>
+      </div>
+     </div>
+     <div class="rounded-lg overflow-hidden shadow-lg group cursor-pointer">
+      <img alt="Elegant evening gown shoot of Ava Monroe in a flowing bronze dress with soft studio lighting and a dark warm backdrop" class="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-300" height="600" src="https://storage.googleapis.com/a1aa/image/50b31466-d56e-44dd-49dd-7769c016f452.jpg" width="400"/>
+      <div class="p-4 bg-amber-50">
+       <h3 class="font-semibold text-amber-900 text-xl">
+        Bronze Beauty
+       </h3>
+       <p class="text-amber-700 mt-1 text-sm">
+        Elegant evening gown shoot with soft lighting.
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="mb-20 max-w-4xl mx-auto" id="about">
+    <h2 class="text-3xl font-playfair font-bold text-amber-900 mb-8 text-center">
+     About Ava
+    </h2>
+    <div class="flex flex-col md:flex-row items-center md:items-start gap-10">
+     <img alt="Casual portrait of Ava Monroe smiling warmly, wearing a cream-colored blouse with a warm amber background" class="rounded-lg shadow-lg w-full md:w-1/2 object-cover" height="500" src="https://storage.googleapis.com/a1aa/image/c5ffeb89-45fa-434d-9b2a-6da9606edc87.jpg" width="400"/>
+     <div class="text-amber-900 text-lg leading-relaxed space-y-6 md:w-1/2">
+      <p>
+       Ava Monroe is a versatile model known for her natural charisma and ability to adapt to diverse styles and concepts. With a background in dance and theater, she brings a unique expressiveness to every shoot.
+      </p>
+      <p>
+       She has worked with top photographers and brands across the globe, specializing in fashion editorials, commercial campaigns, and runway shows. Ava’s warm presence and professionalism make her a favorite collaborator in the industry.
+      </p>
+      <p>
+       Outside of modeling, Ava is passionate about sustainable fashion and uses her platform to promote eco-conscious brands and initiatives.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="mb-20 max-w-3xl mx-auto bg-amber-50 rounded-lg shadow-lg p-10" id="book">
+    <h2 class="text-3xl font-playfair font-bold text-amber-900 mb-8 text-center">
+     Book an Appointment
+    </h2>
+    <form action="#" class="space-y-6" method="POST" novalidate="">
+     <div>
+      <label class="block text-amber-900 font-semibold mb-2" for="name">
+       Full Name
+      </label>
+      <input class="w-full rounded-md border border-amber-400 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-amber-600 focus:border-amber-600" id="name" name="name" placeholder="Your full name" required="" type="text"/>
+     </div>
+     <div>
+      <label class="block text-amber-900 font-semibold mb-2" for="email">
+       Email Address
+      </label>
+      <input class="w-full rounded-md border border-amber-400 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-amber-600 focus:border-amber-600" id="email" name="email" placeholder="you@example.com" required="" type="email"/>
+     </div>
+     <div>
+      <label class="block text-amber-900 font-semibold mb-2" for="phone">
+       Phone Number
+      </label>
+      <input class="w-full rounded-md border border-amber-400 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-amber-600 focus:border-amber-600" id="phone" name="phone" placeholder="+1 555 123 4567" type="tel"/>
+     </div>
+     <div>
+      <label class="block text-amber-900 font-semibold mb-2" for="date">
+       Preferred Date
+      </label>
+      <input class="w-full rounded-md border border-amber-400 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-amber-600 focus:border-amber-600" id="date" name="date" required="" type="date"/>
+     </div>
+     <div>
+      <label class="block text-amber-900 font-semibold mb-2" for="message">
+       Message / Details
+      </label>
+      <textarea class="w-full rounded-md border border-amber-400 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-amber-600 focus:border-amber-600 resize-none" id="message" name="message" placeholder="Tell me about your project or any special requests" rows="4"></textarea>
+     </div>
+     <button class="w-full bg-amber-900 text-amber-50 py-3 rounded-md font-semibold text-lg shadow-lg hover:bg-amber-700 transition" type="submit">
+      Submit Booking Request
+     </button>
+    </form>
+   </section>
+  </main>
+  <footer class="bg-amber-900 text-amber-200 py-8">
+   <div class="container mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
+    <p class="text-sm">
+     © 2024 Ava Monroe. All rights reserved.
+    </p>
+    <div class="flex space-x-6 text-amber-200 text-xl">
+     <a aria-label="Instagram" class="hover:text-amber-50 transition" href="https://www.instagram.com" rel="noopener" target="_blank">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+     <a aria-label="Facebook" class="hover:text-amber-50 transition" href="https://www.facebook.com" rel="noopener" target="_blank">
+      <i class="fab fa-facebook-f">
+      </i>
+     </a>
+     <a aria-label="Twitter" class="hover:text-amber-50 transition" href="https://www.twitter.com" rel="noopener" target="_blank">
+      <i class="fab fa-twitter">
+      </i>
+     </a>
+     <a aria-label="Email" class="hover:text-amber-50 transition" href="mailto:contact@avamodel.com">
+      <i class="fas fa-envelope">
+      </i>
+     </a>
+    </div>
+   </div>
+  </footer>
+  <script>
+   const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+ </body>
+</html>
